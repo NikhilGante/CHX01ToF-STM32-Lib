@@ -1,0 +1,6 @@
+ch_com.cpp:48:8:int8_t COM_Config(uint64_t)	24	static
+ch_com.cpp:63:8:int8_t COM_WriteRegProg(uint8_t, uint16_t)	24	static
+ch_com.cpp:94:8:int8_t COM_WriteRegApp(uint8_t, uint8_t, uint16_t, uint16_t)	32	static
+ch_com.cpp:121:8:int8_t COM_WriteMem(uint16_t, uint16_t, uint16_t)	24	static
+ch_com.cpp:153:8:int8_t COM_WriteMemBurst(uint16_t, const uint8_t*, uint16_t)	24	static
+ch_com.cpp:181:8:int8_t COM_ReadReg(uint8_t, uint8_t, uint16_t*, uint16_t)	32	static

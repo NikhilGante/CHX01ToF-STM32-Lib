@@ -1,0 +1,57 @@
+IAL.hpp:59:7:constexpr Error3n::Error3n()	16	static
+PAL_STM32CubeL1.cpp:13:1:ErrorStm32L1::ErrorStm32L1()	16	static
+PAL_STM32CubeL1.cpp:19:6:virtual void ErrorStm32L1::set(tdeErrorCode)	16	static
+PAL_STM32CubeL1.cpp:23:14:virtual tdeErrorCode ErrorStm32L1::get()	16	static
+PAL_STM32CubeL1.cpp:27:6:virtual void ErrorStm32L1::ignore(bool)	16	static
+PAL_STM32CubeL1.cpp:31:6:virtual bool ErrorStm32L1::isCritical()	16	static
+PAL_STM32CubeL1.cpp:35:6:virtual void ErrorStm32L1::beginErrCriticalSection()	16	static
+PAL_STM32CubeL1.cpp:42:6:virtual void ErrorStm32L1::endErrCriticalSection()	16	static
+IAL.hpp:138:7:constexpr Gpio3n::Gpio3n()	16	static
+PAL_STM32CubeL1.cpp:48:1:GpioStm32L1::GpioStm32L1(tdeGpioPortName, uint8_t)	40	static
+PAL_STM32CubeL1.cpp:128:6:virtual void GpioStm32L1::setMode(tdeGpioMode, tdeGpioState, tdeErrorCode*)	48	static
+PAL_STM32CubeL1.cpp:217:6:virtual void GpioStm32L1::setOutput(tdeGpioState, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:242:6:virtual void GpioStm32L1::setOutputToggle(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:267:14:virtual tdeGpioState GpioStm32L1::getInput(tdeErrorCode*)	16	static
+IAL.hpp:355:7:constexpr SystemTimebase3n::SystemTimebase3n()	16	static
+PAL_STM32CubeL1.cpp:290:1:SysTimeStm32L1::SysTimeStm32L1(TIM_HandleTypeDef*)	16	static
+PAL_STM32CubeL1.cpp:298:1:SysTimeStm32L1::SysTimeStm32L1()	16	static
+PAL_STM32CubeL1.cpp:304:6:void SysTimeStm32L1::__init()	16	static
+PAL_STM32CubeL1.cpp:310:6:void SysTimeStm32L1::usDelay(uint16_t)	16	static
+PAL_STM32CubeL1.cpp:330:6:virtual void SysTimeStm32L1::waitFor(uint32_t, tdeSysTimeUnit, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:383:10:virtual uint32_t SysTimeStm32L1::getSysTick(tdeSysTimeUnit, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:409:6:virtual void SysTimeStm32L1::startCountingTicks(tdeSysTimeUnit, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:423:6:virtual void SysTimeStm32L1::stopCountingTicks(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:435:10:virtual uint32_t SysTimeStm32L1::getElapsedCountingTicks(tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:467:6:virtual void SysTimeStm32L1::resetCountingTicks(tdeErrorCode*)	16	static
+IAL.hpp:453:7:constexpr SoftTimer3n::SoftTimer3n()	16	static
+PAL_STM32CubeL1.cpp:475:1:SoftTimerStm32L1::SoftTimerStm32L1(SysTimeStm32L1*, tdeSysTimeUnit)	24	static
+PAL_STM32CubeL1.cpp:486:6:virtual void SoftTimerStm32L1::start(uint32_t, tdeTimerAutoreloadMode, tdeTimerResetMode, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:501:6:virtual void SoftTimerStm32L1::stop(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:516:16:virtual tdeTimerStatus SoftTimerStm32L1::updateStatus(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:541:10:virtual uint32_t SoftTimerStm32L1::getTimeout(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:545:6:virtual void SoftTimerStm32L1::attachCallback(tdVoidFunction, void*, tdeErrorCode*)	24	static
+IAL.hpp:192:7:constexpr I2c3n::I2c3n()	16	static
+PAL_STM32CubeL1.cpp:561:1:I2cStm32L1::I2cStm32L1(I2C_HandleTypeDef*)	16	static
+PAL_STM32CubeL1.cpp:565:6:virtual void I2cStm32L1::start(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:584:6:virtual void I2cStm32L1::stop(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:603:6:virtual bool I2cStm32L1::isSlaveConnected(uint8_t, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:627:6:virtual void I2cStm32L1::rawWrite(uint8_t, uint8_t*, uint16_t, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:652:6:virtual void I2cStm32L1::rawRead(uint8_t, uint8_t*, uint16_t, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:677:6:virtual void I2cStm32L1::memWrite(uint8_t, uint16_t, tdeBusWidth, uint8_t*, uint16_t, tdeErrorCode*)	48	static
+PAL_STM32CubeL1.cpp:719:6:virtual void I2cStm32L1::memRead(uint8_t, uint16_t, tdeBusWidth, uint8_t*, uint16_t, tdeErrorCode*)	48	static
+IAL.hpp:733:7:constexpr SerialCom3n::SerialCom3n()	16	static
+IAL.hpp:803:7:constexpr Uart3n::Uart3n()	16	static
+PAL_STM32CubeL1.cpp:766:1:UartStm32L1::UartStm32L1(UART_HandleTypeDef*)	16	static
+PAL_STM32CubeL1.cpp:773:6:virtual void UartStm32L1::start(uint32_t, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:792:6:virtual void UartStm32L1::start(uint32_t, tdeUartWordLength, tdeUartStopBits, tdeUartParity, tdeUartMode, tdeUartFlow, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:870:6:virtual void UartStm32L1::stop(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:879:6:virtual void UartStm32L1::write(uint8_t*, uint16_t, uint32_t, tdeErrorCode*)	24	static
+PAL_STM32CubeL1.cpp:899:10:virtual uint16_t UartStm32L1::getRxBufferedCount(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:903:10:virtual uint16_t UartStm32L1::read(uint8_t*, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:924:10:virtual uint16_t UartStm32L1::read(uint8_t*, uint16_t, uint32_t, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:991:6:virtual void UartStm32L1::startRxBuffering(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:1001:6:virtual void UartStm32L1::stopRxBuffering(tdeErrorCode*)	16	static
+PAL_STM32CubeL1.cpp:1018:6:virtual void UartStm32L1::flushIncoming(uint8_t, tdeErrorCode*)	32	static
+PAL_STM32CubeL1.cpp:1031:6:virtual void UartStm32L1::printTxt(char, tdeErrorCode*)	48	static
+PAL_STM32CubeL1.cpp:1037:6:virtual void UartStm32L1::printTxt(char*, tdeErrorCode*)	48	static
+PAL_STM32CubeL1.cpp:1061:6:virtual void UartStm32L1::printNum(double, uint8_t, uint8_t, tdeErrorCode*)	64	static

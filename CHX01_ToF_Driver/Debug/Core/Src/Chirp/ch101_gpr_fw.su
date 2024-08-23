@@ -1,0 +1,3 @@
+ch101_gpr_fw.cpp:202:10:uint16_t get_ch101_gpr_fw_ram_init_addr()	4	static
+ch101_gpr_fw.cpp:203:10:uint16_t get_ch101_gpr_fw_ram_init_size()	4	static
+ch101_gpr_fw.cpp:208:23:const unsigned char* get_ram_ch101_gpr_init_ptr()	4	static

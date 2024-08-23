@@ -1,0 +1,8 @@
+main.c:115:5:main	280	static
+main.c:168:8:get_token	24	static
+main.c:206:9:get_cmdcode	24	static
+main.c:238:6:execute_cmd	24	static
+main.c:286:6:measure_mof	80	static
+main.c:321:6:measure_dist	24	static
+main.c:333:8:calcMedian	120	static
+main.c:385:6:clrMedian	4	static

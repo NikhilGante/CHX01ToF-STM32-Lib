@@ -1,0 +1,5 @@
+ch_lib.cpp:79:8:int8_t CH_API_Init(uint16_t)	24	static
+ch_lib.cpp:185:8:int8_t CH_API_Config(uint8_t, uint16_t, uint16_t)	24	static
+ch_lib.cpp:267:6:void CH_API_MeasStart()	8	static
+ch_lib.cpp:293:6:void CH_API_MeasStop()	8	static
+ch_lib.cpp:328:8:int8_t CH_API_GetResult(chirp_result_t*)	32	static

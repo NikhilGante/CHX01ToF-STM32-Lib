@@ -1,0 +1,6 @@
+NOTmain.c:116:5:NOTmain	24	static
+NOTmain.c:252:6:execute_cmd	24	static
+NOTmain.c:300:11:measure_mof	48	static
+NOTmain.c:336:11:measure_dist	16	static
+NOTmain.c:349:8:calcMedian	120	static
+NOTmain.c:401:6:clrMedian	4	static
